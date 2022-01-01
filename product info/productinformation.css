@@ -100,7 +100,9 @@ transition: all 0.5s;
 	background-size: cover;
 	font-size: 18px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background: url(loginphotos/loginbackground.jpg);
+	background: url(productbackground/yellow02.png);
+    height: 150vh;
+    /* background-size: contain ; */
 }
 .backgroung-white {
 	background-color: white;
@@ -111,9 +113,11 @@ transition: all 0.5s;
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	border-radius: 5px;
 	/* display: grid; */
+    /* max-width: 70%;  media queary*/
 }
 .item-photo{
     border-radius: 5px;
+    max-width: 70%;
 }
 .item-container {
 	display: grid;
@@ -134,9 +138,8 @@ transition: all 0.5s;
         background: linear-gradient(135deg , #ee65c5, #f1ee25);
         letter-spacing: 1px;
         border: none;
-        width: 25%;
         border-radius: 5px;
-        margin-left: 38%;
+
         height: 100%;
         padding: 3px;
         color: white;
