@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f6f6;
+}
+/*Logo Search login register start*/
+.top-nav-head{
+Background-image: url(homepagePhotos/headerbackground.jpg) ;
+height: 83px;
+position: relative;
+}
+.header-logo-haru{
+width: 15%;
+position: relative;
+top: 10px;
+padding-bottom: 5px;
+left: 250px;
+}
+.searchcontainer{
+display: inline-block;
+position: absolute;
+right: 20%;
+top: 45%;
+background-color: white;
+border: 1.25px solid black;
+border-radius: 7px;
+}
+.search{
+width: 450px;
+height: 35px;
+border: none;
+padding: 0px 5px;
+border-radius: 5px;
+}
+#search-icon{
+padding: 7px 5px ;
+background-color: white;
+outline: none;
+border: none;
+margin-right: 3px;
+}
+#R , #L{
+padding: 5px 15px;
+background-color: #ea1a7f7a;;
+text-decoration: none;
+color: black;
+border-radius: 6px;
+margin-right: 10px;
+}
+.RLcontainer{
+position: absolute;
+right: 30%;
+bottom: 66%;
+}
+/*Logo Search login register E N D*/
+
+/*Top Navigation Start*/
+.header-navigation ul{
+display: flex;
+list-style: none;
+background-color: rgb(246 246 244);
+padding: 20px;
+justify-content: space-around;
+}
+.list{
+display: flex;
+flex-direction: column;
+}
+.list .header-navigation-links {
+text-decoration: none;
+color: black;
+display: flex;
+font-size: 20pt;
+}
+.header-navigation-links .text{
+display: none;
+}
+.header-navigation-links:hover .text{
+display: contents;
+transition: all 0.5s;
+}
+.header-navigation-links{
+padding: 15px;
+}
+.header-navigation-links:hover{
+background-color: #ea1a7f7a;
+border-radius: 5px;
+transition: all 0.5s;
+}
+/*Top Navigation end*/
+/*----------------------------------------------END OF THE HEADER------------------------------------------------*/
+.all-the-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 170vh; */
+	background-size: cover;
+	font-size: 18px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background: url(loginphotos/loginbackground.jpg);
+}
+.backgroung-white {
+	background-color: white;
+	width: 50%;
+	/* max-width: 100%; */
+	margin: 18px;
+	padding: 32px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	border-radius: 5px;
+	/* display: grid; */
+}
+.item-photo{
+    border-radius: 5px;
+}
+.item-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	justify-content: center;
+	border: 1px solid black;
+	align-items: center;
+	grid-template-rows: 50% 25% 25%;
+	padding: 10px;
+	border-radius: 15px;
+}
+.item-price{
+    padding: 10px;
+        grid-column: span 2;
+    }
+    .add-to-cart {
+        grid-column: span 2;
+        background: linear-gradient(135deg , #ee65c5, #f1ee25);
+        letter-spacing: 1px;
+        border: none;
+        width: 25%;
+        border-radius: 5px;
+        margin-left: 38%;
+        height: 100%;
+        padding: 3px;
+        color: white;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .add-to-cart:hover{
+        background: linear-gradient(-135deg , #ee65c5, #f1ee25);
+
+    }
+/*-------------------------------------------------FOOTER START -----------------------------------*/
+.padding-container{
+    padding: 1%;
+    background-color: #ededed ;
+}
+.whole-footer-container{
+    background-color:#ededed ;
+    height: 11rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:0.5fr .1fr 0fr ;
+}
+.grid-footer{
+    display: grid;
+}
+
+#footer-img{grid-row: 1/3;}
+#Online-E-Commerce{grid-row: 3/4;}
+
+.footer-lists{
+    list-style: none;
+}
+.footer-links{
+    color: black;
+    text-decoration: none;
+}
+#Online-E-Commerce , #follow-us , #haru{
+    color: #ef5aa1; ;
+}
+/*footer end*/
