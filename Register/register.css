@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    Background-image: url(photos/headerbackground.jpg);
+    
+}
+.cont{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+
+}
+.cont .Registeration-title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.cont .userdetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+.userdetails .inputbox{
+    width:47%;
+    margin-bottom: 7px;
+}
+.userdetails .inputbox .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.userdetails .inputbox input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.button input{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: white;
+    background: linear-gradient(135deg , #ee65c5, #f1ee25);
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+.button input:hover{
+    background: linear-gradient(-135deg , #ee65c5, #f1ee25);
+
+    }
+    
+@media (max-width:584px){
+    .cont{
+        max-width: 100%;
+    }
+.userdetails .inputbox{
+    width: 100%;
+    margin-bottom: 7px;}}

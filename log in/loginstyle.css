@@ -1,0 +1,62 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size: cover;
+            font-size: 18px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background: url(loginphotos/loginbackground.jpg);
+        }
+    .container {
+	background-color: white;
+	width: 400px;
+	max-width: 400px;
+	margin: 18px;
+	padding: 32px;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.login-title{
+    /* text-align: center; */
+    margin-bottom: 1rem;
+}
+    .input-group{
+        margin-bottom: 18px;
+    }
+    .input-login {
+        display: block;
+        width: 100%;
+        max-width: 700px;
+        background: #fff;
+        padding: 13px;
+        border-radius: 6px;
+        border: 1px solid black;
+        color: black;
+        outline: none;
+        margin-top: 5px;
+    }
+    
+    .login-button {
+	width: 100%;
+	padding: 1%;
+	/* border-radius: 1%; */
+	height: 100%;
+	border: none;
+	font-size: 15px;
+    color: white;
+	/* font-weight: 500; */
+	letter-spacing: 1px;
+	border-radius: 5px;
+	background: linear-gradient(135deg , #ee65c5, #f1ee25); 
+	margin-top: 5%;
+}
+.login-button:hover{
+    background: linear-gradient(-135deg , #ee65c5, #f1ee25);
+}

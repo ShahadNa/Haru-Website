@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f6f6f6;
+}
+/*Logo Search login register start*/
+.top-nav-head{
+Background-image: url(homepagePhotos/headerbackground.jpg) ;
+height: 83px;
+position: relative;
+}
+.header-logo-haru{
+width: 15%;
+position: relative;
+top: 10px;
+padding-bottom: 5px;
+left: 250px;
+}
+.searchcontainer{
+display: inline-block;
+position: absolute;
+right: 20%;
+top: 45%;
+background-color: white;
+border: 1.25px solid black;
+border-radius: 7px;
+}
+.search{
+width: 450px;
+height: 35px;
+border: none;
+padding: 0px 5px;
+border-radius: 5px;
+}
+#search-icon{
+padding: 7px 5px ;
+background-color: white;
+outline: none;
+border: none;
+margin-right: 3px;
+}
+#R , #L{
+padding: 5px 15px;
+background-color: #ea1a7f7a;;
+text-decoration: none;
+color: black;
+border-radius: 6px;
+margin-right: 10px;
+}
+.RLcontainer{
+position: absolute;
+right: 30%;
+bottom: 66%;
+}
+/*Logo Search login register E N D*/
+
+/*Top Navigation Start*/
+.header-navigation ul{
+display: flex;
+list-style: none;
+background-color: rgb(246 246 244);
+padding: 20px;
+justify-content: space-around;
+}
+.list{
+display: flex;
+flex-direction: column;
+}
+.list .header-navigation-links {
+text-decoration: none;
+color: black;
+display: flex;
+font-size: 20pt;
+}
+.header-navigation-links .text{
+display: none;
+}
+.header-navigation-links:hover .text{
+display: contents;
+transition: all 0.5s;
+}
+.header-navigation-links{
+padding: 15px;
+}
+.header-navigation-links:hover{
+background-color: #ea1a7f7a;
+border-radius: 5px;
+transition: all 0.5s;
+}
+/*Top Navigation end*/
+/*----------------------------------------------END OF THE HEADER------------------------------------------------*/
+
+
+/*women kids men start*/
+
+.main-categories-container {
+	border-top: 1px solid #e1efdf;
+	border-bottom: 1px solid #e1efdf;
+	justify-content: center;
+	display: grid;
+	padding: 0 3% 0 4%;
+	background:url(SubCategoriesImgs/Green05.png);
+	justify-items: center;
+}
+.grid-the-three-photos {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	justify-items: center;
+	/* border: 1px black solid; */
+	padding: 0% 1.5%;
+	width: 73%;
+	/* background: yellow; */
+	position: relative;
+	left: 8%;
+}
+.main-photos {
+	width: 81%;
+	/* background: red; */
+	/* border: 1px solid black; */
+	margin: 7% 0%;
+	padding: 5%;
+}
+.main-photos:hover {
+	transition: all 0.5s;
+	filter: drop-shadow(8px 4px 6px #8bab8b);
+}
+/*women kids men end*/
+
+
+/* catrgories and subs container start */
+	.catrgories-and-subs-container{
+		display: flex;
+		background: #f8fcf8;
+	} 
+			/*Aside left start*/
+			.left-text-container {
+				display: flex;
+				flex-direction: column;
+				border-right: 1px solid #d5ead3;
+				flex-basis: 15%;
+				padding: 1% 4% 0 0;
+				position: relative;
+				left: 5%;
+			}
+				.left-text {
+					text-align: center;
+					margin: 20px 0px;
+					padding: 15px 0px;
+					font-size: 126%;
+					font-weight: bold;
+					color: black;
+					text-decoration: none;
+				}
+				.left-text:hover{
+					border-radius: 5px;
+					transition: all 1s;
+					background-color: #d0e0cb;
+				}
+			/*Aside left end */
+					
+			/*photos sub category start*/
+			.Sub-Categories-Imgs-container {
+				display: flex;
+				gap: 1.5rem;
+				flex-wrap: wrap;
+				width: 100%;
+				justify-content: center;
+				left: -2.7%;
+				margin: 0% 0 0 5%;
+				padding: 4% 0;
+				background: url(SubCategoriesImgs/Green06.png);
+			}
+			.Imgs-and-discription-container {
+				border: 1px black solid;
+				width: 16%;
+				background-color: #d0e0cb;
+			}
+			.Sub-Categories-Imgs{
+				width: 100%;
+			}
+			.discription-Sub-Imgs{
+				text-align: center;
+				color: black;
+				text-decoration: none;
+				font-size: 15pt;
+			}
+			/*photos sub category e n d*/
+
+
+/*-------------------------------------------------FOOTER START -----------------------------------*/
+.padding-container{
+    padding: 1%;
+    background-color: #ededed ;
+}
+.whole-footer-container{
+    background-color:#ededed ;
+    height: 11rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:0.5fr .1fr 0fr ;
+}
+.grid-footer{
+    display: grid;
+}
+
+#footer-img{grid-row: 1/3;}
+#Online-E-Commerce{grid-row: 3/4;}
+
+.footer-lists{
+    list-style: none;
+}
+.footer-links{
+    color: black;
+    text-decoration: none;
+}
+#Online-E-Commerce , #follow-us , #haru{
+    color: #ef5aa1; ;
+}
+/*footer end*/
