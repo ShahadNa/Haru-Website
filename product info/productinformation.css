@@ -100,8 +100,7 @@ transition: all 0.5s;
 	background-size: cover;
 	font-size: 18px;
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	background: url(productbackground/yellow02.png);
-    height: 150vh;
+	background: url(productbackground/butterflybg.jpg);
     /* background-size: contain ; */
 }
 .backgroung-white {

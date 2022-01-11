@@ -152,7 +152,6 @@ transition: all 0.5s;
 					font-size: 126%;
 					font-weight: bold;
 					color: black;
-					text-decoration: none;
 				}
 				.left-text:hover{
 					border-radius: 5px;
@@ -171,7 +170,7 @@ transition: all 0.5s;
 				left: -2.7%;
 				margin: 0% 0 0 5%;
 				padding: 4% 0;
-				background: url(SubCategoriesImgs/Green06.png);
+				background: url(SubCategoriesImgs/butterfly.jpg);
 			}
 			.Imgs-and-discription-container {
 				border: 1px black solid;
@@ -184,12 +183,13 @@ transition: all 0.5s;
 			.discription-Sub-Imgs{
 				text-align: center;
 				color: black;
-				text-decoration: none;
 				font-size: 15pt;
 			}
 			/*photos sub category e n d*/
 
-
+a{
+	text-decoration: none;
+}
 /*-------------------------------------------------FOOTER START -----------------------------------*/
 .padding-container{
     padding: 1%;
